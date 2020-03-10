@@ -51,3 +51,12 @@ for workshop in list_workshop_created:
     print(workshop.subject, workshop.teacher)
 
 # call method
+
+# I would like this to feel like a program
+# start a while loop
+# ue control flow to make decision
+# decision should be something like: press 1 to create a student
+    # get all information needed to create a student
+    # keep track (add to list) that you have create a new student
+# press 2 to list all workshops
+
