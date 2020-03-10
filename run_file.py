@@ -85,8 +85,8 @@ class Login:
                         print("Create workshop has been selected")
                         user_input = " "
                         while user_input != 'quit':
-                            workshop_name = input('Please enter the first name: ')
-                            teacher_name = input('Please enter the last name: ')
+                            workshop_name = input('Please enter the Subject name: ')
+                            teacher_name = input('Please enter the Subject Teachers name: ')
                             number_of_attendees = int(input('please enter number of attendees for subject: '))
                             workshop = Workshops_available(workshop_name, teacher_name, number_of_attendees)
                             list_workshop_created.append(workshop)
